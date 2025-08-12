@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Horizon · 黑洞AI人类终极问题社群</title>
+  <meta name="description" content="A Zhihu-style, Apple-inspired, bilingual community to solve 100+ core human problems. Google sign-in, Firestore powered."/>
+  <link rel="icon" href="./assets/logo.svg" />
+  <link rel="apple-touch-icon" href="./assets/logo.svg"/>
+  <link rel="stylesheet" href="./styles.css"/>
+  <meta name="theme-color" content="#0a0a0a"/>
+</head>
+<body>
+  <header class="site-header glass">
+    <div class="brand">
+      <img src="./assets/logo.svg" alt="logo" class="logo"/>
+      <div class="titles">
+        <h1 class="brand-title">Event Horizon <span class="divider">·</span> 黑洞AI人类终极问题社群</h1>
+        <p class="brand-subtitle">Language isn’t the barrier—thought is! · 语言不是障碍，思想才是！——Dr.Kurt</p>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="search-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="Search questions · 搜索问题"/>
+      </div>
+      <div id="auth-area" class="auth-area"></div>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <template id="tpl-home">
+    <section class="carousel-section">
+      <div class="section-head">
+        <h2>Global Top Focus · 全球关注度最高</h2>
+        <p class="muted">Most upvoted questions & solutions · 点赞最高的问题与解决方案</p>
+      </div>
+      <div id="top-carousel" class="carousel scroll-snap"></div>
+    </section>
+    <section class="categories-section">
+      <div class="section-head">
+        <h2>Explore 12 Domains · 12 大一级模块</h2>
+        <p class="muted">Tap a module to dive into the highest-voted questions · 进入模块查看点赞最高的问题</p>
+      </div>
+      <div id="cat-grid" class="cat-grid"></div>
+    </section>
+  </template>
+
+  <template id="tpl-category">
+    <section class="category-header">
+      <button class="btn back" data-back>← Back · 返回</button>
+      <h2 id="cat-title"></h2>
+      <p class="muted">Top Questions by Upvotes · 按点赞排序的问题列表</p>
+    </section>
+    <section id="question-list" class="list"></section>
+    <div class="fab-wrap">
+      <button id="ask-btn" class="fab">＋</button>
+    </div>
+  </template>
+
+  <template id="tpl-question">
+    <section class="question-header">
+      <button class="btn back" data-back>← Back · 返回</button>
+      <h2 id="question-title"></h2>
+      <p class="muted" id="question-meta"></p>
+      <div class="vote-row">
+        <button class="btn pill" id="q-upvote">👍 <span id="q-votes">0</span></button>
+        <button class="btn pill outline" id="add-solution">➕ Add Solution · 添加方案</button>
+      </div>
+    </section>
+    <section>
+      <h3>Top Solutions · 点赞最高的解决方案</h3>
+      <div id="solution-list" class="list"></div>
+    </section>
+  </template>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true"></div>
+
+  <!-- Firebase + App scripts -->
+
+
+<script type="module" src="./auth.js"></script>
+  <script type="module" src="./ui.js"></script>
+  <script type="module" src="./app.js"></script>
+
+  <noscript>
+    <div style="color:#fff;padding:12px;background:#c00;position:fixed;bottom:0;left:0;right:0;z-index:9999;">
+      JavaScript is disabled. Please enable JavaScript to use this site. / 请启用 JavaScript
+    </div>
+  </noscript>
+</body>
+</html>

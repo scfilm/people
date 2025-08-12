@@ -1,0 +1,1326 @@
+{
+  "categories": [
+    {
+      "slug": "ai-alignment",
+      "titleEn": "AI & Alignment",
+      "titleZh": "人工智能与对齐",
+      "order": 0
+    },
+    {
+      "slug": "climate-planet",
+      "titleEn": "Climate & Planet",
+      "titleZh": "气候与地球",
+      "order": 1
+    },
+    {
+      "slug": "health-longevity",
+      "titleEn": "Health & Longevity",
+      "titleZh": "健康与长寿",
+      "order": 2
+    },
+    {
+      "slug": "energy-resources",
+      "titleEn": "Energy & Resources",
+      "titleZh": "能源与资源",
+      "order": 3
+    },
+    {
+      "slug": "economy-work",
+      "titleEn": "Economy & Work",
+      "titleZh": "经济与工作",
+      "order": 4
+    },
+    {
+      "slug": "education-skills",
+      "titleEn": "Education & Skills",
+      "titleZh": "教育与技能",
+      "order": 5
+    },
+    {
+      "slug": "governance-justice",
+      "titleEn": "Governance & Justice",
+      "titleZh": "治理与正义",
+      "order": 6
+    },
+    {
+      "slug": "peace-security",
+      "titleEn": "Peace & Security",
+      "titleZh": "和平与安全",
+      "order": 7
+    },
+    {
+      "slug": "infra-cities",
+      "titleEn": "Infrastructure & Cities",
+      "titleZh": "基础设施与城市",
+      "order": 8
+    },
+    {
+      "slug": "space-frontier",
+      "titleEn": "Space & Frontier",
+      "titleZh": "太空与前沿",
+      "order": 9
+    },
+    {
+      "slug": "culture-meaning",
+      "titleEn": "Culture & Meaning",
+      "titleZh": "文化与意义",
+      "order": 10
+    },
+    {
+      "slug": "resilience-risk",
+      "titleEn": "Resilience & Risk",
+      "titleZh": "韧性与风险",
+      "order": 11
+    }
+  ],
+  "questions": [
+    {
+      "id": "ai-alignment-1",
+      "category": "ai-alignment",
+      "titleEn": "How do we align superhuman AI with human values?",
+      "titleZh": "如何让超人类智能与人类价值对齐？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 173,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 19
+      }
+    },
+    {
+      "id": "ai-alignment-2",
+      "category": "ai-alignment",
+      "titleEn": "What governance prevents runaway AI races?",
+      "titleZh": "哪种治理模型能避免AI军备竞赛失控？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 16,
+      "sampleSolution": null
+    },
+    {
+      "id": "ai-alignment-3",
+      "category": "ai-alignment",
+      "titleEn": "Which interpretability methods scale with model size?",
+      "titleZh": "哪些可解释性方法能随模型规模有效扩展？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 199,
+      "sampleSolution": null
+    },
+    {
+      "id": "ai-alignment-4",
+      "category": "ai-alignment",
+      "titleEn": "How to verify safety of autonomous agents?",
+      "titleZh": "如何验证自治智能体的安全性？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 80,
+      "sampleSolution": null
+    },
+    {
+      "id": "ai-alignment-5",
+      "category": "ai-alignment",
+      "titleEn": "Open vs closed models: what mix is safest?",
+      "titleZh": "开源与闭源模型如何平衡以保证安全？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 72,
+      "sampleSolution": null
+    },
+    {
+      "id": "ai-alignment-6",
+      "category": "ai-alignment",
+      "titleEn": "Robustness against jailbreaks and prompt injection?",
+      "titleZh": "如何增强对越狱与提示注入的鲁棒性？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 67,
+      "sampleSolution": null
+    },
+    {
+      "id": "ai-alignment-7",
+      "category": "ai-alignment",
+      "titleEn": "Evaluating long-horizon planning risks in AI?",
+      "titleZh": "如何评估AI长时序规划的风险？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 45,
+      "sampleSolution": null
+    },
+    {
+      "id": "ai-alignment-8",
+      "category": "ai-alignment",
+      "titleEn": "Which incentives align labs with social welfare?",
+      "titleZh": "如何设计激励使实验室与社会福利对齐？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 198,
+      "sampleSolution": null
+    },
+    {
+      "id": "ai-alignment-9",
+      "category": "ai-alignment",
+      "titleEn": "How to govern synthetic media at scale?",
+      "titleZh": "如何对大规模合成媒体进行治理？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 36,
+      "sampleSolution": null
+    },
+    {
+      "id": "ai-alignment-10",
+      "category": "ai-alignment",
+      "titleEn": "What is a practical AI shutdown protocol?",
+      "titleZh": "可落实的AI关机/熔断协议是什么？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 183,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-11",
+      "category": "climate-planet",
+      "titleEn": "What is the fastest path to net-zero by 2050?",
+      "titleZh": "到2050年实现净零的最快路径是什么？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 199,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 119
+      }
+    },
+    {
+      "id": "climate-planet-12",
+      "category": "climate-planet",
+      "titleEn": "How to scale carbon removal to gigatons?",
+      "titleZh": "如何把碳移除规模化到十亿吨级？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 149,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-13",
+      "category": "climate-planet",
+      "titleEn": "Best policy to accelerate clean manufacturing?",
+      "titleZh": "推动清洁制造的最佳政策是什么？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 32,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-14",
+      "category": "climate-planet",
+      "titleEn": "Financing climate adaptation for coastal cities?",
+      "titleZh": "如何为沿海城市的气候适应融资？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 161,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-15",
+      "category": "climate-planet",
+      "titleEn": "How to decarbonize aviation & shipping?",
+      "titleZh": "如何为航空与航运脱碳？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 118,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-16",
+      "category": "climate-planet",
+      "titleEn": "Restoring biodiversity while feeding 10B people?",
+      "titleZh": "养活百亿人口的同时如何恢复生物多样性？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 18,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-17",
+      "category": "climate-planet",
+      "titleEn": "Soil carbon & regenerative agriculture at scale?",
+      "titleZh": "如何规模化推广再生农业与土壤固碳？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 17,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-18",
+      "category": "climate-planet",
+      "titleEn": "Managing water stress & transboundary rivers?",
+      "titleZh": "如何管理水压力与跨境河流？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 33,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-19",
+      "category": "climate-planet",
+      "titleEn": "Early warning for extreme weather & heat?",
+      "titleZh": "如何构建极端天气与热浪预警系统？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 65,
+      "sampleSolution": null
+    },
+    {
+      "id": "climate-planet-20",
+      "category": "climate-planet",
+      "titleEn": "Greening the grid with reliability?",
+      "titleZh": "如何在保持可靠性的同时让电网更绿色？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 69,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-21",
+      "category": "health-longevity",
+      "titleEn": "How to add healthy years, not just years?",
+      "titleZh": "如何延长健康寿命而非仅延长寿命？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 139,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 82
+      }
+    },
+    {
+      "id": "health-longevity-22",
+      "category": "health-longevity",
+      "titleEn": "Pandemic early detection & rapid response?",
+      "titleZh": "如何实现疫情的早发现与快速响应？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 16,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-23",
+      "category": "health-longevity",
+      "titleEn": "Affordable mental health at population scale?",
+      "titleZh": "如何普及可负担的心理健康服务？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 153,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-24",
+      "category": "health-longevity",
+      "titleEn": "Gene therapies: access & safety frameworks?",
+      "titleZh": "基因疗法的可及性与安全框架？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 60,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-25",
+      "category": "health-longevity",
+      "titleEn": "Antibiotic resistance: last-mile solutions?",
+      "titleZh": "抗生素耐药的“最后一公里”方案？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 193,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-26",
+      "category": "health-longevity",
+      "titleEn": "Data interoperability for hospitals?",
+      "titleZh": "医院数据如何互联互通？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 176,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-27",
+      "category": "health-longevity",
+      "titleEn": "Personalized nutrition that actually works?",
+      "titleZh": "真正有效的个性化营养如何实现？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 189,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-28",
+      "category": "health-longevity",
+      "titleEn": "Caregiving tech for aging societies?",
+      "titleZh": "老龄化社会的照护科技怎么做？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 149,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-29",
+      "category": "health-longevity",
+      "titleEn": "Reducing health inequities across regions?",
+      "titleZh": "如何缩小地区间健康不平等？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 117,
+      "sampleSolution": null
+    },
+    {
+      "id": "health-longevity-30",
+      "category": "health-longevity",
+      "titleEn": "Ethics for human enhancement?",
+      "titleZh": "人类增强的伦理边界何在？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 66,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-31",
+      "category": "energy-resources",
+      "titleEn": "Can fusion deliver baseload this century?",
+      "titleZh": "本世纪核聚变能否提供基荷电力？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 124,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 80
+      }
+    },
+    {
+      "id": "energy-resources-32",
+      "category": "energy-resources",
+      "titleEn": "How to deploy long-duration storage cheaply?",
+      "titleZh": "如何低成本部署长时储能？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 81,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-33",
+      "category": "energy-resources",
+      "titleEn": "Next-gen nuclear: siting and public trust?",
+      "titleZh": "新一代核电如何选址并重建公众信任？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 217,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-34",
+      "category": "energy-resources",
+      "titleEn": "Critical minerals: secure & ethical supply?",
+      "titleZh": "关键矿物如何实现安全且合乎伦理的供应？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 232,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-35",
+      "category": "energy-resources",
+      "titleEn": "Power electronics for high-renewables grids?",
+      "titleZh": "高可再生渗透下的电力电子如何演进？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 11,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-36",
+      "category": "energy-resources",
+      "titleEn": "Desalination without high emissions?",
+      "titleZh": "如何在低排放下实现海水淡化？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 204,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-37",
+      "category": "energy-resources",
+      "titleEn": "Efficient HVAC retrofits for old buildings?",
+      "titleZh": "老旧建筑的高效暖通改造怎么做？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 216,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-38",
+      "category": "energy-resources",
+      "titleEn": "Demand response that people actually adopt?",
+      "titleZh": "如何让用户真正参与需求侧响应？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 50,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-39",
+      "category": "energy-resources",
+      "titleEn": "Geothermal anywhere: closed-loop tech?",
+      "titleZh": "闭环地热技术能否随处开发？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 188,
+      "sampleSolution": null
+    },
+    {
+      "id": "energy-resources-40",
+      "category": "energy-resources",
+      "titleEn": "Hydrogen: where does it truly win?",
+      "titleZh": "氢能真正适用的场景在哪里？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 118,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-41",
+      "category": "economy-work",
+      "titleEn": "What skills remain scarce in the AI era?",
+      "titleZh": "AI时代哪些技能仍将稀缺？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 97,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 40
+      }
+    },
+    {
+      "id": "economy-work-42",
+      "category": "economy-work",
+      "titleEn": "How to smooth job transitions from automation?",
+      "titleZh": "如何平滑应对自动化带来的就业转型？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 49,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-43",
+      "category": "economy-work",
+      "titleEn": "Social safety nets that encourage risk-taking?",
+      "titleZh": "鼓励创新而非抑制的社会保障如何设计？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 65,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-44",
+      "category": "economy-work",
+      "titleEn": "Taxation that boosts productivity & fairness?",
+      "titleZh": "提升生产率与公平性的税制如何设计？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 255,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-45",
+      "category": "economy-work",
+      "titleEn": "SMB digitization without vendor lock-in?",
+      "titleZh": "中小企如何数字化且避免厂商锁定？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 205,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-46",
+      "category": "economy-work",
+      "titleEn": "Global supply chains under fragmentation?",
+      "titleZh": "碎片化趋势下全球供应链如何重构？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 96,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-47",
+      "category": "economy-work",
+      "titleEn": "Measuring GDP+ well-being beyond income?",
+      "titleZh": "超越收入的福祉指标如何测量？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 36,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-48",
+      "category": "economy-work",
+      "titleEn": "Platforms to upskill workers fast?",
+      "titleZh": "如何快速提升劳动者技能？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 33,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-49",
+      "category": "economy-work",
+      "titleEn": "New urban-rural compacts for balanced growth?",
+      "titleZh": "城乡新契约如何实现均衡发展？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 107,
+      "sampleSolution": null
+    },
+    {
+      "id": "economy-work-50",
+      "category": "economy-work",
+      "titleEn": "Crypto & finance: useful real-world rails?",
+      "titleZh": "加密金融如何服务实体而非投机？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 34,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-51",
+      "category": "education-skills",
+      "titleEn": "Mastery learning at national scale?",
+      "titleZh": "如何在全国范围推行“掌握式学习”？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 101,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 113
+      }
+    },
+    {
+      "id": "education-skills-52",
+      "category": "education-skills",
+      "titleEn": "Assessments that measure deep understanding?",
+      "titleZh": "如何评估“深度理解”而非死记硬背？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 98,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-53",
+      "category": "education-skills",
+      "titleEn": "AI tutors: equity & efficacy?",
+      "titleZh": "AI导师如何兼顾公平与效果？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 164,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-54",
+      "category": "education-skills",
+      "titleEn": "Teacher workload & retention improvements?",
+      "titleZh": "如何降低教师负担并提升留任率？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 77,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-55",
+      "category": "education-skills",
+      "titleEn": "Open educational resources with sustainability?",
+      "titleZh": "开放教育资源如何可持续？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 216,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-56",
+      "category": "education-skills",
+      "titleEn": "Credentialing skills beyond degrees?",
+      "titleZh": "如何在学位之外认证技能？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 21,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-57",
+      "category": "education-skills",
+      "titleEn": "Early childhood interventions that last?",
+      "titleZh": "哪些早期干预有持久效果？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 196,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-58",
+      "category": "education-skills",
+      "titleEn": "Lifelong learning financing models?",
+      "titleZh": "终身学习的融资模式？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 127,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-59",
+      "category": "education-skills",
+      "titleEn": "Bridging industry–academia for innovation?",
+      "titleZh": "产学结合如何更高效？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 147,
+      "sampleSolution": null
+    },
+    {
+      "id": "education-skills-60",
+      "category": "education-skills",
+      "titleEn": "Civic education in a polarized era?",
+      "titleZh": "撕裂时代的公民教育如何进行？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 41,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-61",
+      "category": "governance-justice",
+      "titleEn": "Digital identity that preserves privacy?",
+      "titleZh": "如何实现既方便又隐私友好的数字身份？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 259,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 53
+      }
+    },
+    {
+      "id": "governance-justice-62",
+      "category": "governance-justice",
+      "titleEn": "Transparent public procurement platforms?",
+      "titleZh": "如何建设透明的公共采购平台？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 30,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-63",
+      "category": "governance-justice",
+      "titleEn": "Reducing corruption with verifiable data?",
+      "titleZh": "如何用可验证数据减少腐败？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 151,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-64",
+      "category": "governance-justice",
+      "titleEn": "Modernizing courts with open standards?",
+      "titleZh": "如何用开放标准现代化法院系统？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 85,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-65",
+      "category": "governance-justice",
+      "titleEn": "Participatory budgeting at scale?",
+      "titleZh": "如何规模化推广参与式预算？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 222,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-66",
+      "category": "governance-justice",
+      "titleEn": "Content moderation that respects rights?",
+      "titleZh": "如何在尊重权利的前提下治理内容？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 170,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-67",
+      "category": "governance-justice",
+      "titleEn": "Election integrity & auditability?",
+      "titleZh": "如何确保选举的可验证性与完整性？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 168,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-68",
+      "category": "governance-justice",
+      "titleEn": "Digital cash vs privacy vs AML?",
+      "titleZh": "数字现金的隐私与反洗钱如何平衡？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 236,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-69",
+      "category": "governance-justice",
+      "titleEn": "Cross-border data flows & sovereignty?",
+      "titleZh": "跨境数据流与数据主权如何平衡？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 230,
+      "sampleSolution": null
+    },
+    {
+      "id": "governance-justice-70",
+      "category": "governance-justice",
+      "titleEn": "Measuring government performance well?",
+      "titleZh": "如何科学衡量政府绩效？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 102,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-71",
+      "category": "peace-security",
+      "titleEn": "Preventing great-power conflict in AI age?",
+      "titleZh": "AI时代如何避免大国冲突？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 157,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 29
+      }
+    },
+    {
+      "id": "peace-security-72",
+      "category": "peace-security",
+      "titleEn": "Cybersecurity for critical infrastructure?",
+      "titleZh": "关键基础设施的网络安全如何保障？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 190,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-73",
+      "category": "peace-security",
+      "titleEn": "Arms control for autonomous weapons?",
+      "titleZh": "无人致命武器的军控如何推进？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 27,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-74",
+      "category": "peace-security",
+      "titleEn": "Food security amid climate shocks?",
+      "titleZh": "气候冲击下的粮食安全如何保障？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 21,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-75",
+      "category": "peace-security",
+      "titleEn": "Disinfo resilience for open societies?",
+      "titleZh": "开放社会如何抵御虚假信息？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 179,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-76",
+      "category": "peace-security",
+      "titleEn": "Refugee protection with dignity?",
+      "titleZh": "如何有尊严地保护难民？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 68,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-77",
+      "category": "peace-security",
+      "titleEn": "Maritime security in contested waters?",
+      "titleZh": "争议海域的海上安全如何维护？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 207,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-78",
+      "category": "peace-security",
+      "titleEn": "Space situational awareness & debris?",
+      "titleZh": "太空态势感知与碎片治理如何推进？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 84,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-79",
+      "category": "peace-security",
+      "titleEn": "Public health security post-COVID?",
+      "titleZh": "后疫情时代公共卫生安全怎么做？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 30,
+      "sampleSolution": null
+    },
+    {
+      "id": "peace-security-80",
+      "category": "peace-security",
+      "titleEn": "Crisis mapping & rapid coordination?",
+      "titleZh": "危机地图与快速协同如何实现？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 228,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-81",
+      "category": "infra-cities",
+      "titleEn": "15-minute cities without exclusion?",
+      "titleZh": "如何打造不排斥的15分钟城市？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 69,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 115
+      }
+    },
+    {
+      "id": "infra-cities-82",
+      "category": "infra-cities",
+      "titleEn": "High-speed rail: when does it pay off?",
+      "titleZh": "高铁何时能经济可行？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 35,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-83",
+      "category": "infra-cities",
+      "titleEn": "Resilient power & broadband for all?",
+      "titleZh": "普惠且有韧性的电力与宽带如何实现？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 107,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-84",
+      "category": "infra-cities",
+      "titleEn": "Waste systems: circular by design?",
+      "titleZh": "垃圾系统如何从设计上实现循环？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 81,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-85",
+      "category": "infra-cities",
+      "titleEn": "Affordable housing without sprawl?",
+      "titleZh": "如何在不蔓延的情况下提供可负担住房？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 126,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-86",
+      "category": "infra-cities",
+      "titleEn": "Transit that people love to use?",
+      "titleZh": "如何让公共交通真正好用？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 172,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-87",
+      "category": "infra-cities",
+      "titleEn": "Smart buildings with open APIs?",
+      "titleZh": "开放API的智慧建筑如何推进？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 223,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-88",
+      "category": "infra-cities",
+      "titleEn": "Urban cooling & heat islands?",
+      "titleZh": "如何治理热岛并实现城市降温？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 103,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-89",
+      "category": "infra-cities",
+      "titleEn": "Water leakage & non-revenue water?",
+      "titleZh": "如何减少自来水漏损？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 51,
+      "sampleSolution": null
+    },
+    {
+      "id": "infra-cities-90",
+      "category": "infra-cities",
+      "titleEn": "Street safety for vulnerable users?",
+      "titleZh": "弱势交通参与者的街道安全如何保障？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 104,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-91",
+      "category": "space-frontier",
+      "titleEn": "Low-cost access beyond LEO sustainably?",
+      "titleZh": "如何可持续地降低近地轨道之外的发射成本？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 100,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 31
+      }
+    },
+    {
+      "id": "space-frontier-92",
+      "category": "space-frontier",
+      "titleEn": "Planetary defense: detection to deflection?",
+      "titleZh": "行星防御从探测到偏转如何实现？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 181,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-93",
+      "category": "space-frontier",
+      "titleEn": "ISRU on Moon/Mars: where to start?",
+      "titleZh": "月/火资源原位利用如何起步？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 78,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-94",
+      "category": "space-frontier",
+      "titleEn": "Commercial stations: viable business models?",
+      "titleZh": "商业空间站的商业模式如何可行？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 189,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-95",
+      "category": "space-frontier",
+      "titleEn": "Space law for congestion & equity?",
+      "titleZh": "拥挤与公平时代的太空法如何演进？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 249,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-96",
+      "category": "space-frontier",
+      "titleEn": "Biomanufacturing in microgravity?",
+      "titleZh": "微重力下的生物制造可行吗？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 184,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-97",
+      "category": "space-frontier",
+      "titleEn": "Deep-space comms & navigation?",
+      "titleZh": "深空通信与导航如何搭建？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 175,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-98",
+      "category": "space-frontier",
+      "titleEn": "Terraforming: ethics & feasibility?",
+      "titleZh": "地球化的伦理与可行性？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 28,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-99",
+      "category": "space-frontier",
+      "titleEn": "Search for life: prioritizing targets?",
+      "titleZh": "寻找生命如何优先排序目标？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 165,
+      "sampleSolution": null
+    },
+    {
+      "id": "space-frontier-100",
+      "category": "space-frontier",
+      "titleEn": "Protecting the night sky from mega-constellations?",
+      "titleZh": "如何保护星空免受巨型星座影响？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 172,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-101",
+      "category": "culture-meaning",
+      "titleEn": "What shared narratives bind plural societies?",
+      "titleZh": "多元社会需要怎样的共同叙事？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 53,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 73
+      }
+    },
+    {
+      "id": "culture-meaning-102",
+      "category": "culture-meaning",
+      "titleEn": "Art & culture in the age of AI remix?",
+      "titleZh": "AI混剪时代的艺术与文化何去何从？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 196,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-103",
+      "category": "culture-meaning",
+      "titleEn": "Digital heritage preservation at scale?",
+      "titleZh": "数字遗产如何规模化保存？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 72,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-104",
+      "category": "culture-meaning",
+      "titleEn": "Media business models that reward quality?",
+      "titleZh": "如何让媒体商业模式回馈高质量内容？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 51,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-105",
+      "category": "culture-meaning",
+      "titleEn": "Restoring trust in institutions & each other?",
+      "titleZh": "如何重建对机构与彼此的信任？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 128,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-106",
+      "category": "culture-meaning",
+      "titleEn": "Cross-lingual collaboration that works?",
+      "titleZh": "跨语言协作如何真正高效？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 107,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-107",
+      "category": "culture-meaning",
+      "titleEn": "Public spaces that foster connection?",
+      "titleZh": "促进连接的公共空间如何设计？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 79,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-108",
+      "category": "culture-meaning",
+      "titleEn": "Censorship-resistant knowledge commons?",
+      "titleZh": "抗审查的知识公地如何构建？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 246,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-109",
+      "category": "culture-meaning",
+      "titleEn": "Sports & health as social glue?",
+      "titleZh": "体育与健康如何作为社会黏合剂？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 173,
+      "sampleSolution": null
+    },
+    {
+      "id": "culture-meaning-110",
+      "category": "culture-meaning",
+      "titleEn": "Rituals for digital well-being?",
+      "titleZh": "数字生活的“仪式感”如何促进健康？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 186,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-111",
+      "category": "resilience-risk",
+      "titleEn": "Global catastrophic risks: how to prioritize?",
+      "titleZh": "全球性灾难风险如何优先级排序？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 152,
+      "sampleSolution": {
+        "contentEn": "Start with a multi-stakeholder roadmap: measurable goals, competitive pilots, public evaluations; pair policy sandboxes with open benchmarks.",
+        "contentZh": "从多方参与的路线图入手：可量化目标、竞争性试点、公开评测；以政策沙盒配合开放基准。",
+        "upvotesCount": 33
+      }
+    },
+    {
+      "id": "resilience-risk-112",
+      "category": "resilience-risk",
+      "titleEn": "Early nuclear risk reduction today?",
+      "titleZh": "当下核风险的早期降低措施？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 185,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-113",
+      "category": "resilience-risk",
+      "titleEn": "Financial resilience to black swans?",
+      "titleZh": "面对黑天鹅的金融韧性如何构建？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 93,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-114",
+      "category": "resilience-risk",
+      "titleEn": "Supply-chain resilience vs efficiency?",
+      "titleZh": "供应链韧性与效率如何平衡？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 225,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-115",
+      "category": "resilience-risk",
+      "titleEn": "Building codes for climate extremes?",
+      "titleZh": "适应极端气候的建筑规范如何更新？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 206,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-116",
+      "category": "resilience-risk",
+      "titleEn": "Backup communications for disasters?",
+      "titleZh": "灾害时的备用通信如何保障？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 208,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-117",
+      "category": "resilience-risk",
+      "titleEn": "Food reserve systems that actually work?",
+      "titleZh": "有效的粮食储备体系如何设计？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 24,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-118",
+      "category": "resilience-risk",
+      "titleEn": "Psychological resilience at scale?",
+      "titleZh": "如何提升群体层面的心理韧性？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 68,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-119",
+      "category": "resilience-risk",
+      "titleEn": "Resilient computing: backups & verifiability?",
+      "titleZh": "计算韧性：备份与可验证性如何实现？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 220,
+      "sampleSolution": null
+    },
+    {
+      "id": "resilience-risk-120",
+      "category": "resilience-risk",
+      "titleEn": "Insurance innovation for new perils?",
+      "titleZh": "针对新型风险的保险创新如何推进？",
+      "detailEn": "",
+      "detailZh": "",
+      "upvotesCount": 18,
+      "sampleSolution": null
+    }
+  ]
+}
